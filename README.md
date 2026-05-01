@@ -15,3 +15,13 @@
 ### 1. 环境依赖
 ```bash
 pip install ultralytics opencv-python google-generativeai pillow
+```
+
+### 2. 运行测试
+请确保配置了有效的大模型 API Key，准备一张测试图片放置于根目录，然后运行核心主程序：
+```bash
+python code.py
+```
+
+## 📊 核心业务流价值
+本项目通过前端低成本视觉模型过滤，按需触发高成本多模态大模型长链推理，极大地平衡了工程落地成本（Token 消耗和推理延迟）与长尾路况的识别准确率。
